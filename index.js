@@ -2,15 +2,6 @@ const quadrado = document.getElementsByClassName("quadrado")[0];
 
 quadrado.addEventListener("click", trocarCor);
 
-// function trocarCor(){
-//     if(quadrado.classList.contains("preto")){
-//         quadrado.classList.remove("preto");
-//         quadrado.classList.add("azul");
-//     }else if(quadrado.classList.contains("azul")){
-//         quadrado.classList.remove("azul");
-//         quadrado.classList.add("preto");
-//     }
-
 function trocarCor(){
     if(quadrado.classList.contains("azul")){
         quadrado.classList.add("preto");
